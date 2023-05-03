@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+  }
+  h1{
+    color: white;
+    background-color: black;
+    display: block;
+    padding: 2em;
+    font-size: 2.8em;    
+    text-align: center;
+    width: 100%;
+
+  }
+  #formulario {
+    width: 90%;
+    margin: 2em;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 2.6rem;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 1.7em;
+    box-sizing: border-box;
+    height: 7rem;
+  }
+  
+  button[type="submit"], button[type="button"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.7em;
+    padding: 1em;
+    width: 10em;
+
+  }
+  
+  button[type="button"] {
+    background-color: #aaa;
+    color: white;
+    margin-right: 20px;
+    font-size: 1.7em;
+    display: block;
+    padding: 1em;
+    width: 10em;
+  }
+  button[type="submit"]:hover {
+    background-color: #40dd84;
+    color: black;
+  }
+  button[type="button"]:hover {
+    background-color: #e9dede;
+    color: black;
+  }
+  
+  #botones{
+    display: inline-flex;
+    justify-content: space-around; 
+    gap: 2em;
+  }
+@media (max-width: 600px){
+  h1{
+    font-size: 2em;
+  }
+  #formulario{
+    width: 80%
+  }
+  label{
+    font-size: 1.3em;
+  }
+  input[type="text"], input[type="password"] {
+    height: 3.75em;
+  }
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.2em;
+    width: 9em;
+    height: 2em
+
+  }
+  
+  button[type="button"] {
+    background-color: #aaa;
+    color: white;
+    margin-right: 20px;
+    font-size: 1.2em;
+    padding: 0.2em;
+    width: 9em;
+    height: 2em
+  }
+  #botones{
+    gap: 1em;
+  }
+}

@@ -1,0 +1,131 @@
+.wrap {
+    width: 90%;
+    max-width: 1000px;
+    position: absolute;
+    top: -20rem;
+    margin-left: 60rem;
+    color: white;
+
+}
+
+.widget {
+    width: 40%;
+    margin: 2em;
+}
+
+.widget p {
+    display: inline-block;
+    line-height: 1em;
+
+}
+
+.fecha,
+.reloj {
+    /*font-family: 'Oswald', 'Arial';*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.25em;
+    width: 100%;
+}
+
+.reloj {
+    font-size: 4em;
+    padding-top: 0;
+    background: rgba(98, 227, 30, 0.5);
+}
+
+@media (max-width: 900px) {
+    .wrap {
+        width: 60%;
+        max-width: 1000px;
+        position: absolute;
+        top: -20rem;
+        margin-left: 50rem;
+        color: white;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .wrap {
+        width: 60%;
+        max-width: 1000px;  
+        color: white;
+    }
+    .widget p {
+        display: inline;
+        padding: 0em;
+    }
+    .fecha{
+        position: absolute;
+        top: 12rem;
+        margin-left: -52rem;
+        padding: 0em;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .reloj{
+        position: absolute;
+        top: 12rem;
+        margin-left: -33rem;
+        padding: 0.85em;
+        background: rgba(98, 227, 30, 0.5);
+    }
+
+    .fecha,
+    .reloj {
+        /*font-family: 'Oswald', 'Arial';*/
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 0.3rem;
+        width: 70%;
+        display: inline;
+    }
+}
+
+@media (max-width: 400px) {
+    .wrap {
+        width: 60%;
+        max-width: 1000px;  
+        color: white;
+    }
+    .widget p {
+        display: inline;
+        padding: 0em;
+        
+    }
+    .fecha{
+        position: absolute;
+        top: 12rem;
+        margin-left: -52rem;
+        padding: 0em;
+        background: rgba(0, 0, 0, 0.5);
+        
+    }
+    .reloj{
+        position: absolute;
+        top: 12rem;
+        margin-left: -35rem;
+        padding: 0.95em;
+        background: rgba(98, 227, 30, 0.5);
+        
+        
+    }
+
+    .fecha,
+    .reloj {
+        /*font-family: 'Oswald', 'Arial';*/
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.2em;
+        margin-bottom: 0.3rem;
+        width: 70%;
+        display: inline;
+    }
+}
